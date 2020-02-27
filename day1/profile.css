@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+
+.container1 {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.avatar {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+}
+
+.avatar2 {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+img {
+    margin: auto auto;
+    display: block;
+}

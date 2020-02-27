@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <title>Document</title>
+    <style>
+        table, th, td, input {
+          padding: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="booking">
+        <div class="booking2">
+            <a href="#" >Booking Flight</a>
+            <a href="#" style="background-color: aqua";>Schedule</a>
+            <a href="#" style="background-color: aqua";>Ticket</a>
+            <a href="#" style="background-color: aqua";>Hotel</a>
+        </div>
+    </div>
+    <div class="booking3">
+        <table style="width:400px">
+            <tr>
+                <td colspan="2">
+                    <div class="flying_from">Flying from</div>
+                    <input type="text" value="Karachi, Pakist">
+                </td> 
+                <td colspan="2">
+                    <div class="flying_to">To</div>
+                    <input type="text" value="Islambad, Pai">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="departing">Departing</div>
+                    <input type="date">
+                </td>
+                <td colspan="2">
+                    <div class="returning">Returning</div>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="adults">Adult</label><br>
+                    <select id="adults" name="adults">
+                       <option value="0">0</option>
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="adults">Child</label><br>
+                    <select id="adults" name="adults">
+                       <option value="0">0</option>
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                    </select>
+
+                </td>
+                <td>
+                    <label for="adults">Infant</label><br>
+                    <select id="adults" name="adults">
+                       <option value="0">0</option>
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                    </select>
+
+                </td>
+                <td>
+                    <label for="adults">Currency</label><br>
+                    <select id="adults" name="adults">
+                       <option value="Bath">Bath</option>
+                       <option value="๊USD">USD</option>
+                       <option value="EUR">EUR</option>
+                       <option value="JPY">JPY</option>
+                    </select>
+
+                </td>
+            </tr>
+        
+        </table>
+        <input type="submit" value="Search" style="background-color: tomato;"></input>
+    </div>
+</body>
+</html>
