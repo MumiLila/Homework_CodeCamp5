@@ -1,0 +1,77 @@
+
+
+
+.container1 {
+    width: 100%;
+
+}
+
+.container2 {
+    float: left;
+    width: 30%;
+    text-align: start;
+
+}
+
+.container3 {
+    float: right;
+    width: 70%;
+    text-align: end;
+
+
+}
+.up{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.container4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80px auto 100px;
+}
+
+.container5 {
+    padding: 30px;
+}
+
+.container6 {
+    text-align: center;
+    padding: 30px;
+}
+
+.container7 {
+    padding: 30px;
+}
+
+.up1 {
+    text-decoration: none;
+    padding: 60px 20px;
+}
+
+.container8 {
+    width: 100%;
+    text-align: center;
+}
+
+.up3 {
+    text-decoration: none;
+    padding: 30px;
+}
+
+.container9 {
+    width: 100%;
+
+}
+
+.container10 {
+    float: left;
+    width: 20%;
+    padding: 40px;
+}
+
+.container11 {
+    float: right;
+    width: 80%;
+    text-align: center;
+}

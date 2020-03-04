@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pat1 {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(22, 19, 19);
+          position: relative;
+          animation: example1 5s linear 2s infinite alternate;
+        }
+
+        @keyframes example1 {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 300px; top: 0px;}
+            50%  {left: 300px; top: 300px;}
+            75%  {left: 0px; top: 300px;}
+            100%  {left: 0px; top: 0px;}
+         }
+
+         .pat2 {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(22, 19, 19);
+          position: relative;
+          animation: example2 5s linear 2s infinite alternate;
+          
+        }
+
+        @keyframes example2 {
+            0%   {background-color: tan; left: 0px; top: 0px;}
+            25%  {background-color: yellow; left: 300px; top: 0px;}
+            50%  {background-color: blue; left: 300px; top: 300px;}
+            75%  {background-color: green; left: 0px; top: 300px;}
+            100%  {background-color: gold; left: 0px; top: 0px;}
+         }
+
+         .pat3 {
+          width: 100px;
+          height: 100px;
+          background-color:coral;
+          position: relative;
+          animation: example3 5s linear 2s infinite alternate;
+        }
+
+        @keyframes example3 {
+            0%   {visibility: hidden; left: 0px; top: 0px;}
+            25%  {visibility: visible;left: 300px; top: 0px;}
+            50%  {visibility: hidden; left: 300px; top: 300px;}
+            75%  { left: 0px; top: 300px;}
+            100%  {visibility: hidden; left: 0px; top: 0px;}
+         }
+
+    </style>
+</head>
+<body>
+    <div class="pat1"></div><br>
+    <div class="pat2"></div><br>
+    <div class="pat3"></div><br>
+    
+</body>
+</html>

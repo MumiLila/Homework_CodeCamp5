@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .tan1 {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          animation-name: example;
+          animation-duration: 4s;
+        }
+        
+        @keyframes example {
+          from {background-color: red;}
+          to {background-color: yellow;}
+        }
+
+        .tan2 {
+           width: 100px;
+           height: 100px;
+           background-color: red;
+           animation-name: example2;
+           animation-duration: 4s;
+        }
+
+        @keyframes example2 {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            100% {background-color: green;}
+         }
+         /*color*/
+         .tan3 {
+          color: blueviolet;
+          animation-name: example3;
+          animation-duration: 4s;
+        }
+        
+        @keyframes example3 {
+          from {color: blueviolet;}
+          to {color: brown;}
+        }
+
+        .tan4 {
+           color: aqua;
+           animation-name: example4;
+           animation-duration: 4s;
+        }
+
+        @keyframes example4 {
+            0%   {color: red;}
+            25%  {color: yellow;}
+            50%  {color: blue;}
+            100% {color: green;}
+         }
+
+          /*width*/
+          .tan5 {
+          border: 1px solid black;    
+          width: 100px;
+          height: 100px;
+          animation-name: example5;
+          animation-duration: 4s;
+        }
+        
+        @keyframes example5 {
+          from {width: 100px;}
+          to {width: 200px;}
+        }
+
+        .tan6 {
+            border: 1px solid black;    
+            width: 100px;
+            height: 100px;
+            animation-name: example6;
+            animation-duration: 4s;
+        }
+
+        @keyframes example6 {
+            0%   {width: 100px; height: 100px;}
+            25%  {width: 400px; height: 100px;}
+            50%  {width: 600px; height: 100px;}
+            100% {width: 800px; height: 100px;}
+         }
+
+           /*Position-relative*/
+           .tan7 {   
+          width: 100px;
+          height: 100px;
+          background-color: coral;
+          position: relative;
+          animation-name: example7;
+          animation-duration: 4s;
+        }
+        
+        @keyframes example7 {
+          from {left: 0px; top: 0px;}
+          to {left: 300px; top: 0px;}
+        }
+
+        .tan8 {
+          width: 100px;
+          height: 100px;
+          background-color: coral;
+          position: relative;
+          animation-name: example8;
+          animation-duration: 4s;
+        }
+
+        @keyframes example8 {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 300px; top: 0px;}
+            50%  {left: 300px; top: 300px;}
+            75%  {left: 0px; top: 300px;}
+            100%  {left: 0px; top: 0px;}
+         }
+
+         /*Show Hide*/
+         .tan9 {   
+          width: 100px;
+          height: 100px;
+          background-color:crimson;
+          position: relative;
+          animation-name: example9;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+        }
+        
+        @keyframes example9 {
+          from {visibility:hidden;
+                opacity: 0;
+                transition: visibility 0s, opacity 0.5s linear;
+          }
+          to {visibility:visible;
+              opacity: 1;
+          }
+        }
+
+
+        </style>
+</head>
+<body>
+    <div class="tan1"></div><br>
+    <div class="tan2"></div><br>
+    <div class="tan3">Hello World</div><br>
+    <div class="tan4">Hello World</div><br>
+    <div class="tan5"></div><br>
+    <div class="tan6"></div><br>
+    <div class="tan7"></div><br>
+    <div class="tan8"></div><br>
+    <div class="tan9"></div><br>
+    
+</body>
+</html>

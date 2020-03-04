@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cat1 {
+          width: 100px;
+          height: 100px;
+          background-color: coral;
+          position: relative;
+          animation-name: example1;
+          animation-duration: 10s;
+          animation-delay: 4s;
+        }
+
+        @keyframes example1 {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 300px; top: 0px;}
+            50%  {left: 300px; top: 300px;}
+            75%  {left: 0px; top: 300px;}
+            100%  {left: 0px; top: 0px;}
+         }
+
+         .cat2 {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(37, 172, 33);
+          position: relative;
+          animation-name: example2;
+          animation-duration: 4s;
+          animation-direction: reverse;
+        }
+
+        @keyframes example2 {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 300px; top: 0px;}
+            50%  {left: 300px; top: 300px;}
+            75%  {left: 0px; top: 300px;}
+            100%  {left: 0px; top: 0px;}
+         }
+
+         .cat3 {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(112, 80, 255);
+          position: relative;
+          animation-name: example3;
+          animation-duration: 4s;
+          animation-iteration-count: 2;
+          animation-direction: alternate;
+        }
+
+        @keyframes example3 {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 300px; top: 0px;}
+            50%  {left: 300px; top: 300px;}
+            75%  {left: 0px; top: 300px;}
+            100%  {left: 0px; top: 0px;}
+         }
+
+         .cat4 {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(22, 19, 19);
+          position: relative;
+          animation-name: example4;
+          animation-duration: 4s;
+          animation-iteration-count: 2;
+          animation-direction: alternate-reverse;
+        }
+
+        @keyframes example4 {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 300px; top: 0px;}
+            50%  {left: 300px; top: 300px;}
+            75%  {left: 0px; top: 300px;}
+            100%  {left: 0px; top: 0px;}
+         }
+    </style>
+</head>
+<body>
+    <div class="cat1"></div><br>
+    <div class="cat2"></div><br>
+    <div class="cat3"></div><br>
+    <div class="cat4"></div><br>
+</body>
+</html>
