@@ -1,28 +1,32 @@
 
+/** {
+    box-sizing: border-box;
+    border: 1px solid black;
+  }*/
 
+  a {
+      text-decoration: none;
+  }
 
 .container1 {
     width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 30% 70%;
 
 }
 
 .container2 {
-    float: left;
-    width: 30%;
-    text-align: start;
-
+    text-align: left;
 }
 
 .container3 {
-    float: right;
-    width: 70%;
-    text-align: end;
-
+    text-align: right;
 
 }
 .up{
     text-decoration: none;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .container4 {
@@ -46,32 +50,120 @@
 
 .up1 {
     text-decoration: none;
-    padding: 60px 20px;
+    padding: 0 40px;
 }
 
 .container8 {
+    background-color: tan;
     width: 100%;
+    height: 70px;
+    padding: 10px;
     text-align: center;
+
 }
 
 .up3 {
     text-decoration: none;
-    padding: 30px;
+    text-align: center;
+    
 }
 
 .container9 {
     width: 100%;
+    display: grid;
+    grid-template-columns: 5% 95%;
 
 }
 
 .container10 {
-    float: left;
-    width: 20%;
     padding: 40px;
 }
 
 .container11 {
-    float: right;
-    width: 80%;
+    padding: 40px;
     text-align: center;
 }
+
+.up4 {
+    text-decoration: none;
+}
+
+.up5 {
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.container12 img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container13 {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.container14 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container15 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align:left;
+    text-decoration: none;
+}
+
+.container16 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container19 {
+    width: 100%;
+    text-align: center;
+}
+
+.container20 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container22 {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+ table {
+     margin: 40px auto;
+     padding: 20px;
+
+ }
+
+ td {
+     padding: 20px 30px;
+ }
+
+ .container23 {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+
+ .container24 {
+
+ }
+
+ ul {
+     list-style: none;
+ }
